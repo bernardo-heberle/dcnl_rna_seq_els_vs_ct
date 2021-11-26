@@ -1,4 +1,4 @@
-# dcnl_rna_seq_els_vs_ct
+# RNA Seq Analysis for Publication: 
 
 Repository containing all the code utilized for the analyses of the RNA-seq data in publication XXX.
 
@@ -18,4 +18,3 @@ singularity container used for this analyses can be found at:
 Mouse reference genome used: ftp.ensembl.org/pub/release-104/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.primary_assembly.fa.gz
 
 Mouse reference annotation used: ftp.ensembl.org/pub/release-104/gtf/mus_musculus/Mus_musculus.GRCm39.104.gtf.gz
-
