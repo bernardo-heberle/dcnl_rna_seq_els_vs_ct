@@ -1,4 +1,6 @@
-# RNA Seq Analysis for Publication: 
+# RNA Seq Analysis for Publication: XXX
+
+### doi:
 
 Repository containing all the code utilized for the analyses of the RNA-seq data in publication XXX.
 
