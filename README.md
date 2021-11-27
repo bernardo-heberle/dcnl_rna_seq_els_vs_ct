@@ -19,7 +19,11 @@
 
 ##### Raw Illumina paired-end data can be found at: [Raw Data](https://drive.google.com/drive/folders/1IRp2A5-B7ENPiobFfX452opIA5OixlzZ?usp=sharing)
 
+#### Raw data can be downloaded using command: ` wget https://drive.google.com/drive/folders/1IRp2A5-B7ENPiobFfX452opIA5OixlzZ?usp=sharing `
+
 ##### Singularity container used for this analyses can be found at:
+
+#### Singularity container can also be pulled using command:
 
 ##### Mouse reference genome used: [Mouse Reference Genome](http://ftp.ensembl.org/pub/release-104/fasta/mus_musculus/dna/) --- Mus_musculus.GRCm39.dna.primary_assembly.fa.gz
 
