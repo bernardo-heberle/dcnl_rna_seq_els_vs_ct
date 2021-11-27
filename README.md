@@ -23,7 +23,9 @@
 
 ##### Singularity container used for this analyses can be found at:
 
-##### Singularity container can also be pulled using command:
+##### Singularity container can be downloaded using command: ` wget XXX `
+
+##### Alternatively singularity container can be pulled using command: ` singularity pull XXX `
 
 ##### Mouse reference genome used: [Mouse Reference Genome](http://ftp.ensembl.org/pub/release-104/fasta/mus_musculus/dna/) --- Mus_musculus.GRCm39.dna.primary_assembly.fa.gz
 
