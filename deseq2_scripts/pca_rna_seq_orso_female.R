@@ -1,57 +1,54 @@
-## Carregar Pacotes
+# Load packages
 library("rrcov")
 library("DESeq2")
 
-## Carregar Arquivos
+## Store data paths
 file1 = "../deseq2_data/female_counts.csv"
 file2 = "../deseq2_data/female_metadata.txt"
 
-## Criar variavel para guardar matriz de contagens do rna-seq
+## Create variable for counts matrix
 cts <-  as.matrix(read.csv(file1 ,sep=",",row.names="Geneid"))
 
-## Criar variavel para guardar metadata da matriz de contagem do RNA-seq
+## Create metadata variable 
 coldata <- read.csv(file2, sep="\t", row.names="Sample")
 coldata$condition <- factor(coldata$condition)
 
-## Unir metadata e matriz em um objeto deseq2
+## Unite metadata and counts into deseq object
 dds <- DESeqDataSetFromMatrix(countData = cts,
                               colData = coldata,
                               design = ~ condition)
-## Mostrar a variavel criada pelo deseq
+## Show deseq object
 dds
 
-## Mostrar as 5 primeiras linhas da matriz de contagens
+## Show 5 lines of deseq object
 head(assay(dds), 5)
 
-## Manter somente os genes com pelo menos 10 contagens totais entre todas amostras
+## Only keep genes with atleast 10 summed counts across all samples.
 keep <- rowSums(counts(dds)) >= 10
 dds <- dds[keep,]
 
-## Incluir nomes das condições no objecto do deseq
+## Include condition names on deseq object
 dds$condition <- factor(dds$condition, levels = c('untreated', 'treated'))
 
-## Sei lá o que isso faz, mas tava no tutorial
+## Generate deseq normalization
 dds <- DESeq(dds)
 
-## Transformar valores das constagens com normalização logarítimica
+## Log transform values
 rld <- rlog(dds, blind=FALSE)
 
-## Criar variavel com as contagens em transformação logaritimica
+## Create variable with counts for log transformation
 rld_pca <- assay(rld)
 head(rld_pca, 3)
 
-## Tranformar colunas em fileiras e vice-versa (necessário pra fazer o plot)
+## Transpose matrix.
 rld_final <- as.data.frame(t(rld_pca))
 
-## Deixar o gráfivo vom um tamanho bom
+## Set graph size
 par(mar=c(1,1,1,1))
 
-## Usar a função do PcaGrid pra criar o gráfico de outliers
-#pca <- PcaGrid(rld_final)
-
-## Alternativamente pode-se usar, levando em consideração somento os dois primeiros PCs
+## PcaGrid analysis with top 2 PCs
 pca <- PcaGrid(rld_final, k=2)
 
-## Plottar o gráfico
+## Plot the graph
 plot(pca, main="Robust PCA Female Samples \n")
 
