@@ -1,0 +1,14 @@
+Sample	condition
+CT4M	untreated
+CT9M	untreated
+ELS1M	treated
+ELS2M	treated
+ELS11M	treated
+CT3M	untreated
+CT1M	untreated
+ELS10M	treated
+ELS3M	treated
+CT11M	untreated
+ELS4M	treated
+
+

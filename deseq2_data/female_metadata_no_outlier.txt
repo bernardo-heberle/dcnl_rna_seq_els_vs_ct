@@ -1,0 +1,11 @@
+Sample	condition
+CT17F	untreated
+ELS20F	treated
+CT19F	untreated
+CT12F	untreated
+ELS14F	treated
+ELS7F	treated
+ELS15F	treated
+ELS18F	treated
+CT15F	untreated
+ELS17F	treated
