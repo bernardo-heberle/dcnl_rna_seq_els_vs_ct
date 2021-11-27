@@ -2,7 +2,8 @@
 
 ## doi:
 
-#### Repository containing all the code utilized for the analyses of the RNA-seq data in publication XXX.
+
+### Repository Organization and Data Availability:
 
 
 
