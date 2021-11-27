@@ -19,7 +19,7 @@
 
 ##### Raw Illumina paired-end data can be found at: [Raw Data](https://drive.google.com/drive/folders/1IRp2A5-B7ENPiobFfX452opIA5OixlzZ?usp=sharing)
 
-##### Raw data can be downloaded using command: ` wget https://drive.google.com/drive/folders/1IRp2A5-B7ENPiobFfX452opIA5OixlzZ?usp=sharing `
+##### Raw data can be downloaded using command: ` wget XXX `
 
 ##### Singularity container used for this analyses can be found at:
 
