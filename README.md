@@ -13,7 +13,7 @@
 
 ##### deseq2_data/ --- Contains code used to cleanup feature matrix, the cleanud up feature matrices, and the metada used in the deseq2 analyses.
 
-##### singularity/ --- Contains the [singularity](https://sylabs.io/singularity/) recipe for the container used in these analyses.
+##### singularity/ --- Contains the [singularity](https://sylabs.io/docs/) recipe for the container used in these analyses.
 
 ##### count_data/ ---- Contains gene quantification matrix with data for all samples outputed by [FeatureCounts](https://academic.oup.com/bioinformatics/article/30/7/923/232889)
 
