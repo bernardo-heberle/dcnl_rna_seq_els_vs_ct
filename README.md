@@ -6,14 +6,15 @@ Repository containing all the code utilized for the analyses of the RNA-seq data
 
 
 
-nextflow_scripts/ill_pipeline.nf - contains the nextflow pipeline I wrote for the quality control, trimming, mapping, and quantification of transcripts.
+nextflow_pipeline - Contains the nextflow pipeline for performing the quality control, trimming, mapping, and quantification of transcripts.
 
-deseq2/ - contains the deseq2 scripts used for the differential gene expression analysis and generating graphs. Also contains code used to cleanup feature matrix and the metadata
-used in the deseq2 analyses.
+deseq2_scripts/ - contains the deseq2 scripts used for outlier detection, differential gene expression analysis, and generating graphs.
 
-singularity/ill_pipeline.recipe - contains the singularity recipe for the container used in these analyses.
+deseq2_data/ - contains code used to cleanup feature matrix and the metada used in the deseq2 analyses.
 
-Raw Illumina paired-end data can be found at:
+singularity/illumina_rna_seq.rec - contains the singularity recipe for the container used in these analyses.
+
+Raw Illumina paired-end data can be found at: 
 
 singularity container used for this analyses can be found at:
 
