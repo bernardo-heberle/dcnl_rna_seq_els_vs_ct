@@ -20,6 +20,6 @@
 
 ##### Singularity container used for this analyses can be found at:
 
-##### Mouse reference genome used: [I'm an inline-style link](ftp.ensembl.org/pub/release-104/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.primary_assembly.fa.gz)
+##### Mouse reference genome used: [Mouse Reference Genome](ftp.ensembl.org/pub/release-104/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.primary_assembly.fa.gz)
 
-##### Mouse reference annotation used: [I'm an inline-style link](ftp.ensembl.org/pub/release-104/gtf/mus_musculus/Mus_musculus.GRCm39.104.gtf.gz)
+##### Mouse reference annotation used: [Mouse Genome Annotation](ftp.ensembl.org/pub/release-104/gtf/mus_musculus/Mus_musculus.GRCm39.104.gtf.gz)
