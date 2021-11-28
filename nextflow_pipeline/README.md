@@ -21,7 +21,7 @@
          
  ## Example Command:
  
- #### ` nextflow main.nf --ref references/human_genome.fa --gtf references/human_annotation.gtf --fastq raw__paired_end_data/ `
+ #### ` nextflow main.nf --ref references/human_genome.fa --gtf references/human_annotation.gtf --fastq raw__paired_end_data/ --multiqc_config multiqc_config/multiqc_config.yaml`
  
 
  
