@@ -14,6 +14,7 @@
    ##### --ref <path_to_reference_genome>
    ##### --gtf <path_to_genome_annotaion>
    ##### --fastq <path_to_directory_containing_paired_end_fastq_files>
+   ##### --multiqc_config <path_to_multiqc_yaml_file>
    
 
  ##### modules: Contains script for each module of the pipeline, there you can find the specific parameters set for each tool used in the analyses.
@@ -31,3 +32,5 @@
  #### Alignment: [STAR Aligner](https://github.com/alexdobin/STAR)
  
  #### Gene Level Quantification: [FeatureCounts](https://academic.oup.com/bioinformatics/article/30/7/923/232889)
+ 
+ #### Quality Control Report Generation: [MultiQC](https://multiqc.info/)
