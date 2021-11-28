@@ -6,7 +6,7 @@ nextflow.enable.dsl=2
 params.ref = 'references/Mus_musculus.GRCm39.dna.primary_assembly.fa'
 params.gtf = 'references/Mus_musculus.GRCm39.104.gtf'
 params.data_dir = 'raw_data/'
-params.multiqc_config = "references/multiqc_config.yaml"
+params.multiqc_config = "multiqc_config/multiqc_config.yaml"
 
 
 log.info """\
