@@ -6,7 +6,7 @@
 ## Directory structure and file description:
 
 
-##### nextflow.config: contains configuration setup, needs to be changed to adapat to the needs of your local or High Performance Computing environment.
+##### nextflow.config: contains configuration setup, needs to be changed to adapat to the configuration of your local or High Performance Computing environment.
 
 
 ##### main.nf: main pipeline script, it takes three parameters:
@@ -21,7 +21,7 @@
          
  ## Example Command:
  
- #### ` nextflow main.nf --ref references/human_genome.fa --gtf references/human_annotation.gtf --fastq raw__paired_end_data/ --multiqc_config multiqc_config/multiqc_config.yaml`
+ #### ` nextflow main.nf --ref references/human_genome.fa --gtf references/human_annotation.gtf --fastq raw_paired_end_data/ --multiqc_config multiqc_config/multiqc_config.yaml`
  
 
  
