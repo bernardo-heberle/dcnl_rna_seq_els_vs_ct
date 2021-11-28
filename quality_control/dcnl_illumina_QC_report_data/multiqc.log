@@ -1,0 +1,429 @@
+[2021-11-28 15:12:49,034] multiqc                                            [DEBUG  ]  This is MultiQC v1.11
+[2021-11-28 15:12:49,034] multiqc                                            [DEBUG  ]  No MultiQC config found: /conda/lib/python3.9/site-packages/multiqc_config.yaml
+[2021-11-28 15:12:49,035] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/bag222/.multiqc_config.yaml
+[2021-11-28 15:12:49,037] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2021-11-28 15:12:49,037] multiqc                                            [DEBUG  ]  Added to filename clean extensions: [{'type': 'regex_keep', 'pattern': '^[^_.]*'}]
+[2021-11-28 15:12:49,037] multiqc                                            [DEBUG  ]  Command used: /conda/bin/multiqc -n dcnl_illumina_QC_report.html .
+[2021-11-28 15:12:49,817] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.11
+[2021-11-28 15:12:49,817] multiqc                                            [DEBUG  ]  Command     : /conda/bin/multiqc -n dcnl_illumina_QC_report.html .
+[2021-11-28 15:12:49,817] multiqc                                            [DEBUG  ]  Working dir : /pscratch/mteb223_uksr/cdna_comparison/illumina/full_analyses/nextflow/example/work/cd/3bb51d94ab88a3d3e6856211f8e4dd
+[2021-11-28 15:12:49,817] multiqc                                            [DEBUG  ]  Template    : default
+[2021-11-28 15:12:49,817] multiqc                                            [DEBUG  ]  Running Python 3.9.5 (default, Jun  4 2021, 12:28:51)  [GCC 7.5.0]
+[2021-11-28 15:12:49,818] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype
+[2021-11-28 15:12:49,818] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpvogk79xq
+[2021-11-28 15:12:49,963] multiqc                                            [INFO   ]  Search path : /pscratch/mteb223_uksr/cdna_comparison/illumina/full_analyses/nextflow/example/work/cd/3bb51d94ab88a3d3e6856211f8e4dd
+[2021-11-28 15:12:50,009] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,010] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,010] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,010] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,013] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,023] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS18F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,024] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS18F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,024] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS18F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,024] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS18F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,026] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS18F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,043] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,044] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,044] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,044] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,046] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,054] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS7F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,055] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS7F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,055] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS7F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,055] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS7F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,057] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS7F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,066] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,066] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,067] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,067] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,068] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,083] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,084] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,084] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,084] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,086] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,096] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,097] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,097] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,097] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,099] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,122] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,123] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,123] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,123] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,125] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,142] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS18F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,143] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS18F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,143] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS18F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,143] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS18F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,145] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS18F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,163] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT9M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,164] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT9M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,164] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT9M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,164] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT9M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,166] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT9M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,176] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,177] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,177] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,177] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,179] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,195] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,195] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,196] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,196] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,197] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,207] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT3F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,208] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT3F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,208] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT3F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,208] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT3F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,210] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT3F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,218] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,219] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,219] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,219] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,221] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS15F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,238] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,239] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,239] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,239] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,240] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,258] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,259] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,259] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,259] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,261] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,270] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,271] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,271] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,271] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,273] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,295] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT12F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,296] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT12F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,296] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT12F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,296] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT12F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,298] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT12F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,306] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS10M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,307] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS10M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,307] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS10M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,307] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS10M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,309] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS10M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,317] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,318] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,318] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,318] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,320] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT15F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,342] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,343] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,343] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,343] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,345] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,353] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS14F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,354] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS14F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,354] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS14F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,354] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS14F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,356] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS14F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,372] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,373] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,373] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,373] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,375] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS17F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,384] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,385] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,385] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,385] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,387] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,395] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT5F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,396] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT5F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,396] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT5F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,396] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT5F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,398] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT5F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,414] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS20F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,415] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS20F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,415] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS20F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,415] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS20F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,417] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS20F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,425] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT12F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,426] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT12F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,426] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT12F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,426] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT12F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,428] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT12F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,437] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS20F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,438] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS20F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,438] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS20F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,438] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS20F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,440] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS20F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,463] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,464] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,464] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,464] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,466] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS4M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,482] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,483] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,483] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,483] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,485] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT1M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,501] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,502] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,502] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,502] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,504] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT4M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,544] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT9M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,545] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT9M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,545] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT9M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,545] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT9M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,547] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT9M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,555] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT5F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,556] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT5F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,556] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT5F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,557] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT5F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,558] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT5F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,568] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,569] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,569] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,569] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,571] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT3M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,580] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS10M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,581] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS10M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,581] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS10M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,581] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS10M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,582] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS10M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,591] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,592] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,593] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,593] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,594] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS11M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,610] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,610] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,611] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,611] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,612] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT2M_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,622] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT19F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,622] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT19F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,623] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT19F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,623] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT19F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,624] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT19F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,648] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,649] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,649] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,649] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,651] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,659] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT3F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,660] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT3F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,660] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT3F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,660] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT3F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,662] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT3F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,679] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: .command.run
+[2021-11-28 15:12:50,680] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: .command.run
+[2021-11-28 15:12:50,680] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: .command.run
+[2021-11-28 15:12:50,680] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: .command.run
+[2021-11-28 15:12:50,681] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: .command.run
+[2021-11-28 15:12:50,695] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,696] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,696] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,696] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,698] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS11M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,706] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,707] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,707] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,707] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,709] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT3M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,718] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS7F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,718] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS7F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,719] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS7F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,719] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS7F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,720] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS7F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,729] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,730] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,730] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,730] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,732] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS17F_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,746] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: CT19F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,747] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: CT19F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,747] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: CT19F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,747] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: CT19F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,749] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: CT19F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,757] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,758] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,758] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,758] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,760] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS2M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,768] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS14F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,769] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS14F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,769] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS14F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,769] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS14F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,771] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS14F_1.fq_trimming_report.txt
+[2021-11-28 15:12:50,782] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: ELS1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,783] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: ELS1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,783] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: ELS1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,783] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: ELS1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:50,785] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ELS1M_2.fq_trimming_report.txt
+[2021-11-28 15:12:51,486] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.5.0
+[2021-11-28 15:12:51,487] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.5.0
+[2021-11-28 15:12:51,488] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2021-11-28 15:12:51,491] multiqc                                            [DEBUG  ]  No samples found: ccs
+[2021-11-28 15:12:51,495] multiqc                                            [DEBUG  ]  No samples found: ngsderive
+[2021-11-28 15:12:51,499] multiqc                                            [DEBUG  ]  No samples found: purple
+[2021-11-28 15:12:51,502] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2021-11-28 15:12:51,506] multiqc                                            [DEBUG  ]  No samples found: lima
+[2021-11-28 15:12:51,509] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2021-11-28 15:12:51,513] multiqc                                            [DEBUG  ]  No samples found: somalier
+[2021-11-28 15:12:51,516] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2021-11-28 15:12:51,521] multiqc.modules.mosdepth.mosdepth                  [DEBUG  ]  include_contigs: []
+[2021-11-28 15:12:51,521] multiqc.modules.mosdepth.mosdepth                  [DEBUG  ]  exclude_contigs: []
+[2021-11-28 15:12:51,521] multiqc                                            [DEBUG  ]  No samples found: mosdepth
+[2021-11-28 15:12:51,524] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2021-11-28 15:12:51,527] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2021-11-28 15:12:51,530] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2021-11-28 15:12:51,533] multiqc                                            [DEBUG  ]  No samples found: quast
+[2021-11-28 15:12:51,537] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2021-11-28 15:12:51,541] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2021-11-28 15:12:51,544] multiqc                                            [DEBUG  ]  No samples found: rockhopper
+[2021-11-28 15:12:51,546] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2021-11-28 15:12:51,551] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2021-11-28 15:12:51,555] multiqc                                            [DEBUG  ]  No samples found: busco
+[2021-11-28 15:12:51,558] multiqc                                            [DEBUG  ]  No samples found: bustools
+[2021-11-28 15:12:51,561] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2021-11-28 15:12:51,564] multiqc                                            [DEBUG  ]  No samples found: gffcompare
+[2021-11-28 15:12:51,568] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2021-11-28 15:12:51,571] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2021-11-28 15:12:51,575] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2021-11-28 15:12:51,579] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2021-11-28 15:12:51,582] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2021-11-28 15:12:51,586] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2021-11-28 15:12:51,589] multiqc                                            [DEBUG  ]  No samples found: happy
+[2021-11-28 15:12:51,593] multiqc                                            [DEBUG  ]  No samples found: mirtop
+[2021-11-28 15:12:51,596] multiqc                                            [DEBUG  ]  No samples found: sambamba
+[2021-11-28 15:12:51,600] multiqc                                            [DEBUG  ]  No samples found: homer
+[2021-11-28 15:12:51,603] multiqc                                            [DEBUG  ]  No samples found: hops
+[2021-11-28 15:12:51,606] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2021-11-28 15:12:51,609] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2021-11-28 15:12:51,613] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2021-11-28 15:12:51,616] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2021-11-28 15:12:51,620] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2021-11-28 15:12:51,624] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2021-11-28 15:12:51,627] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2021-11-28 15:12:51,633] multiqc                                            [DEBUG  ]  No samples found: fgbio
+[2021-11-28 15:12:51,638] multiqc                                            [DEBUG  ]  No samples found: dragen
+[2021-11-28 15:12:51,642] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2021-11-28 15:12:51,645] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2021-11-28 15:12:51,654] multiqc                                            [DEBUG  ]  No samples found: biobambam2
+[2021-11-28 15:12:51,657] multiqc                                            [DEBUG  ]  No samples found: jcvi
+[2021-11-28 15:12:51,661] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
+[2021-11-28 15:12:51,663] multiqc                                            [DEBUG  ]  No samples found: picard
+[2021-11-28 15:12:51,667] multiqc                                            [DEBUG  ]  No samples found: vep
+[2021-11-28 15:12:51,671] multiqc                                            [DEBUG  ]  No samples found: sentieon
+[2021-11-28 15:12:51,674] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2021-11-28 15:12:51,677] multiqc                                            [DEBUG  ]  No samples found: qc3C
+[2021-11-28 15:12:51,680] multiqc                                            [DEBUG  ]  No samples found: nanostat
+[2021-11-28 15:12:51,684] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2021-11-28 15:12:51,699] multiqc.modules.samtools.samtools                  [INFO   ]  Found 24 flagstat reports
+[2021-11-28 15:12:51,714] multiqc.modules.samtools.samtools                  [INFO   ]  Found 24 idxstats reports
+[2021-11-28 15:12:51,717] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
+[2021-11-28 15:12:51,720] multiqc                                            [DEBUG  ]  No samples found: eigenstratdatabasetools
+[2021-11-28 15:12:51,724] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2021-11-28 15:12:51,727] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2021-11-28 15:12:51,732] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2021-11-28 15:12:51,736] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2021-11-28 15:12:51,739] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2021-11-28 15:12:51,741] multiqc                                            [DEBUG  ]  No samples found: varscan2
+[2021-11-28 15:12:51,745] multiqc                                            [DEBUG  ]  No samples found: snippy
+[2021-11-28 15:12:51,750] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2021-11-28 15:12:51,754] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2021-11-28 15:12:51,757] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2021-11-28 15:12:51,761] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2021-11-28 15:12:51,764] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2021-11-28 15:12:51,767] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2021-11-28 15:12:51,770] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2021-11-28 15:12:51,774] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2021-11-28 15:12:51,777] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2021-11-28 15:12:51,788] multiqc.modules.star.star                          [INFO   ]  Found 24 reports
+[2021-11-28 15:12:51,792] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2021-11-28 15:12:51,795] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2021-11-28 15:12:51,798] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2021-11-28 15:12:51,801] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2021-11-28 15:12:51,804] multiqc                                            [DEBUG  ]  No samples found: snpsplit
+[2021-11-28 15:12:51,808] multiqc                                            [DEBUG  ]  No samples found: odgi
+[2021-11-28 15:12:51,811] multiqc                                            [DEBUG  ]  No samples found: pangolin
+[2021-11-28 15:12:51,815] multiqc                                            [DEBUG  ]  No samples found: kat
+[2021-11-28 15:12:51,818] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2021-11-28 15:12:51,822] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2021-11-28 15:12:51,825] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2021-11-28 15:12:51,841] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS18F
+[2021-11-28 15:12:51,848] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS15F
+[2021-11-28 15:12:51,852] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT11M
+[2021-11-28 15:12:51,856] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT15F
+[2021-11-28 15:12:51,861] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS3M
+[2021-11-28 15:12:51,891] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT12F
+[2021-11-28 15:12:51,893] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS20F
+[2021-11-28 15:12:51,894] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS4M
+[2021-11-28 15:12:51,896] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT1M
+[2021-11-28 15:12:51,897] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT4M
+[2021-11-28 15:12:51,898] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT9M
+[2021-11-28 15:12:51,900] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT5F
+[2021-11-28 15:12:51,903] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS10M
+[2021-11-28 15:12:51,905] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT2M
+[2021-11-28 15:12:51,908] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT17F
+[2021-11-28 15:12:51,910] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT3F
+[2021-11-28 15:12:51,911] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS11M
+[2021-11-28 15:12:51,912] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT3M
+[2021-11-28 15:12:51,914] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS7F
+[2021-11-28 15:12:51,915] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS17F
+[2021-11-28 15:12:51,917] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: CT19F
+[2021-11-28 15:12:51,918] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS2M
+[2021-11-28 15:12:51,919] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS14F
+[2021-11-28 15:12:51,921] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: ELS1M
+[2021-11-28 15:12:51,922] multiqc.modules.cutadapt.cutadapt                  [INFO   ]  Found 24 reports
+[2021-11-28 15:12:51,938] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2021-11-28 15:12:51,942] multiqc                                            [DEBUG  ]  No samples found: kaiju
+[2021-11-28 15:12:51,944] multiqc                                            [DEBUG  ]  No samples found: kraken
+[2021-11-28 15:12:51,948] multiqc                                            [DEBUG  ]  No samples found: malt
+[2021-11-28 15:12:51,951] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2021-11-28 15:12:51,955] multiqc                                            [DEBUG  ]  No samples found: sickle
+[2021-11-28 15:12:51,958] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2021-11-28 15:12:51,962] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2021-11-28 15:12:51,965] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2021-11-28 15:12:51,968] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2021-11-28 15:12:51,972] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2021-11-28 15:12:51,975] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2021-11-28 15:12:51,995] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT1M
+[2021-11-28 15:12:51,997] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS10M
+[2021-11-28 15:12:52,003] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS11M
+[2021-11-28 15:12:52,004] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS7F
+[2021-11-28 15:12:52,007] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT12F
+[2021-11-28 15:12:52,009] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS2M
+[2021-11-28 15:12:52,010] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT3F
+[2021-11-28 15:12:52,013] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT2M
+[2021-11-28 15:12:52,018] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT15F
+[2021-11-28 15:12:52,019] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT3M
+[2021-11-28 15:12:52,021] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS15F
+[2021-11-28 15:12:52,028] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS18F
+[2021-11-28 15:12:52,029] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT5F
+[2021-11-28 15:12:52,031] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS4M
+[2021-11-28 15:12:52,032] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT19F
+[2021-11-28 15:12:52,035] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS3M
+[2021-11-28 15:12:52,037] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT9M
+[2021-11-28 15:12:52,038] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS20F
+[2021-11-28 15:12:52,040] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT4M
+[2021-11-28 15:12:52,043] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT11M
+[2021-11-28 15:12:52,044] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS17F
+[2021-11-28 15:12:52,046] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: CT17F
+[2021-11-28 15:12:52,047] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS1M
+[2021-11-28 15:12:52,049] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: ELS14F
+[2021-11-28 15:12:52,050] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 24 reports
+[2021-11-28 15:12:52,466] multiqc                                            [DEBUG  ]  No samples found: pychopper
+[2021-11-28 15:12:52,469] multiqc                                            [DEBUG  ]  No samples found: pycoqc
+[2021-11-28 15:12:52,473] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2021-11-28 15:12:52,476] multiqc                                            [DEBUG  ]  No samples found: multivcfanalyzer
+[2021-11-28 15:12:52,480] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2021-11-28 15:12:52,484] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2021-11-28 15:12:52,487] multiqc                                            [DEBUG  ]  No samples found: bclconvert
+[2021-11-28 15:12:52,491] multiqc                                            [DEBUG  ]  No samples found: interop
+[2021-11-28 15:12:52,494] multiqc                                            [DEBUG  ]  No samples found: ivar
+[2021-11-28 15:12:52,497] multiqc                                            [DEBUG  ]  No samples found: flash
+[2021-11-28 15:12:52,501] multiqc                                            [DEBUG  ]  No samples found: seqyclean
+[2021-11-28 15:12:52,504] multiqc                                            [DEBUG  ]  No samples found: optitype
+[2021-11-28 15:12:52,546] multiqc                                            [INFO   ]  Compressing plot data
+[2021-11-28 15:12:53,001] multiqc                                            [INFO   ]  Report      : dcnl_illumina_QC_report.html
+[2021-11-28 15:12:53,001] multiqc                                            [INFO   ]  Data        : dcnl_illumina_QC_report_data
+[2021-11-28 15:12:53,001] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpvogk79xq/multiqc_data' to '/pscratch/mteb223_uksr/cdna_comparison/illumina/full_analyses/nextflow/example/work/cd/3bb51d94ab88a3d3e6856211f8e4dd/dcnl_illumina_QC_report_data'
+[2021-11-28 15:12:53,083] multiqc                                            [INFO   ]  MultiQC complete
