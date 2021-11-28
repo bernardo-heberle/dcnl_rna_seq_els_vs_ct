@@ -17,7 +17,7 @@
 
 ##### count_data/ ---- Contains gene quantification matrix with data for all samples outputed by [FeatureCounts](https://academic.oup.com/bioinformatics/article/30/7/923/232889)
 
-##### quality_control/ --- Contains quality control report html file made with [MultiQC](https://multiqc.info/)
+##### quality_control/ --- Contains quality control report html file and QC data made with [MultiQC](https://multiqc.info/)
 
 ##### Raw Illumina paired-end data can be found at: [Raw Data](https://drive.google.com/drive/folders/1IRp2A5-B7ENPiobFfX452opIA5OixlzZ?usp=sharing)
 
