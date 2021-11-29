@@ -11,7 +11,7 @@
 
 ##### deseq2_scripts/ --- Contains the [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) scripts used for outlier detection, differential gene expression analysis, and generating graphs.
 
-##### deseq2_data/ --- Contains code used to cleanup feature matrix, the cleanud up feature matrices, and the metada used in the deseq2 analyses.
+##### deseq2_data/ --- Contains code used to cleanup feature matrix, the cleaned-up up feature matrices, and the metada used in the deseq2 analyses.
 
 ##### singularity/ --- Contains the [singularity](https://sylabs.io/docs/) recipe for the container used in this nextflow pipeline.
 
