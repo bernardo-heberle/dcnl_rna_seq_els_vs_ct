@@ -76,7 +76,7 @@ head(res_ordered)
 par(mfrow=c(1,1))
 
 # Make a basic volcano plot
-with(res, plot(log2FoldChange, -log10(pvalue), pch=20, main="Volcano plot Female CT vs Female ELS",
+with(res, plot(log2FoldChange, -log10(pvalue), pch=20, main="Volcano plot Male CT vs Male ELS",
                xlim=c(-3,3), ylim=c(0,15)))
 
 # Add colored points: blue if padj<0.1, red if log2FC>0.8 and padj<0.1)
