@@ -14,8 +14,7 @@ cts <-  as.matrix(read.csv(file1 ,sep=",",row.names="Geneid"))
 head(cts, 3)
 
 # Remove outlier samples (CT3F and CT5F)
-cts <- cts[,-1]
-cts <- cts[,-5]
+cts <- cts[,-2]
 
 # Check if correct samples were removed
 head(cts, 3)
@@ -89,3 +88,4 @@ with(subset(res, padj<0.1 & abs(log2FoldChange)>0.8), points(log2FoldChange, -lo
 #vst function will perform variance stabilizing transformation 
 vsdata <- vst(dds, blind=FALSE)
 plotPCA(vsdata, intgroup="condition") # Deseq2 PCA plot
+
