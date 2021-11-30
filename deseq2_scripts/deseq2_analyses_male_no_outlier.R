@@ -13,7 +13,7 @@ cts <-  as.matrix(read.csv(file1 ,sep=",",row.names="Geneid"))
 # See elements in counts matrix 
 head(cts, 3)
 
-# Remove outlier samples (CT3F and CT5F)
+# Remove outlier samples (CT2M)
 cts <- cts[,-2]
 
 # Check if correct samples were removed
