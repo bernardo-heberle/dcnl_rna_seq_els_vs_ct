@@ -6,7 +6,7 @@
 ## Directory structure and file description:
 
 
-##### nextflow.config: contains configuration setup, needs to be changed to adapat to the configuration of your local or High Performance Computing environment.
+##### nextflow.config: contains configuration setup, needs to be changed to adapt to the configuration of your local or High Performance Computing environment.
 
 
 ##### main.nf: main pipeline script, it takes three parameters:
