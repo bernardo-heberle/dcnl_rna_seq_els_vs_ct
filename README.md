@@ -35,3 +35,5 @@
 
 
 #### Download this repository using commmand line: ` git clone https://github.com/bernardo-heberle/dcnl_rna_seq_els_vs_ct `
+
+[#235](https://github.com/GoekeLab/bambu/issues/235).
