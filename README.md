@@ -19,7 +19,7 @@
 
 ##### quality_control/ --- Contains quality control report html file and QC data made with [MultiQC](https://multiqc.info/)
 
-##### Raw Illumina paired-end data can be found at: The OneDrive policy on my current Institution does not allow me to give access to the data to anyboody with the link. If you would like to access the raw data send me an email at bah@uky.edu or bernardo.aguzzoli@gmail.com and I will promptly grant you access.
+##### Raw Illumina gzipped paired-end data can be found at: The OneDrive policy on my current Institution does not allow me to give access to the data to anyboody with the link. If you would like to access the raw data send me an email at bah@uky.edu or bernardo.aguzzoli@gmail.com and I will promptly grant you access. Note that the data is gzipped, to make it work with the NextFlow pipeline you will first need to unzip it using the command `gzip -d *` on the directory containing the data.
 
 ##### Singularity container and recipe used for this analyses can be found at: [Container](https://cloud.sylabs.io/library/bernardo-heberle/default/dcnl_illumina_rna_seq)
 
