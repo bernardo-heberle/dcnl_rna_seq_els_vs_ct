@@ -19,7 +19,7 @@
 
 ##### quality_control/ --- Contains quality control report html file and QC data made with [MultiQC](https://multiqc.info/)
 
-##### Raw Illumina paired-end data can be found at: (Insert Link Here) - Maybe NIH or Someone Else will make available, I don't currently have the capacity to host this on personal servers.
+##### Raw Illumina paired-end data can be found at: [Raw Data](https://luky-my.sharepoint.com/:f:/r/personal/bag222_uky_edu/Documents/backup/grad_school/fall_2021/dcnl_fall_2021/rna_seq_orso_complete/raw_data?csf=1&web=1&e=rjX7Ko) - The OneDrive policy on my current Institution does not allow me to give access to the data to anyboody with the link. If you would like to access the raw data send me an email at bah@uky.edu or bernardo.aguzzoli@gmail.com and I will promptly grant you access.
 
 ##### Singularity container and recipe used for this analyses can be found at: [Container](https://cloud.sylabs.io/library/bernardo-heberle/default/dcnl_illumina_rna_seq)
 
