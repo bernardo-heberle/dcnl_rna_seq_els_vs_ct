@@ -9,7 +9,7 @@
 ##### nextflow.config: contains configuration setup, needs to be changed to adapt to the configuration of your local or High Performance Computing environment.
 
 
-##### main.nf: main pipeline script, it takes three parameters:
+##### main.nf: main pipeline script, it takes four parameters:
 
    ##### --ref <path_to_reference_genome>
    ##### --gtf <path_to_genome_annotaion>
